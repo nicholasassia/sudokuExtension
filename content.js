@@ -107,7 +107,7 @@ function solvePuzzle() {
     if (solve(board)) {
       fillSolution(board);
       const endTime = performance.now();
-      alert(`Puzzle solved in ${((endTime - startTime) / 1000).toFixed(2)} seconds!`);
+      alert(`Puzzle solved in ${((endTime - startTime) / 1000).toFixed(5)} seconds!`);
     } else {
       alert("Couldn't solve the puzzle. It may be invalid.");
     }
